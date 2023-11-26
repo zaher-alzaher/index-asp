@@ -8,10 +8,10 @@
 
     <article>
         <h3>
-            Our Mission
+            Our Mission new edit
         </h3>
         <p>
-            Makin programming easy and enjoyable for everyone. 
+            Makin programming easy and enjoyable for everyone. new edit 
         </p>
           <h3>
               Why Index?
