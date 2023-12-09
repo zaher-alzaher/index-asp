@@ -110,7 +110,7 @@ h5, h6 {
         padding-top: 30px;
     }
 
-    .featured + .main-content {
+    .featured + .main-content {text-align: center;
     }
 
 header .content-wrapper {
@@ -208,6 +208,14 @@ ul#menu {
 /* featured */
 .featured {
     background-color: #fff;
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../Images/Background-1.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+
 }
 
     .featured .content-wrapper {
@@ -219,6 +227,7 @@ ul#menu {
         background-image: linear-gradient(left, #7ac0da 0%, #a4d4e6 100%);
         color: #3e5667;
         padding: 20px 40px 30px 40px;
+        border-radius: 50px;
     }
 
         .featured hgroup.title h1, .featured hgroup.title h2 {
@@ -251,6 +260,13 @@ section.feature {
 }
 
 /* ordered list */
+.round {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+
+}
 ol.round {
    list-style-type: none;
     padding-left: 0;
@@ -264,19 +280,19 @@ ol.round {
     }
 
         ol.round li.zero {
-            background: url("../Images/orderedList0.png") no-repeat;
+            
         }
 
         ol.round li.one {
-            background: url("../Images/orderedList1.png") no-repeat;
+          
         }
 
         ol.round li.two {
-            background: url("../Images/orderedList2.png") no-repeat;
+            
         }
 
         ol.round li.three {
-            background: url("../Images/orderedList3.png") no-repeat;
+         
         }
 
         ol.round li.four {
